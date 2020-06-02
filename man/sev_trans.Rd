@@ -9,7 +9,7 @@ sev_trans(po2 = NA, spo2 = NA)
 \arguments{
 \item{po2}{Partial pressure of arterial blood oxygen (mmHg)}
 
-\item{spo2}{Peripheral oxygen saturation (fraction or %)}
+\item{spo2}{Peripheral oxygen saturation (fraction or \%)}
 }
 \description{
 Transforms PO2 values to SpO2 values and vice versa
