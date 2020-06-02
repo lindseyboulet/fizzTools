@@ -1,6 +1,6 @@
 #' sev_trans {fizzTulz}
 #' 
-#' @title Severinghaus Calculation for Hb-O2 Dissociation  
+#' @title Severinghaus Calculation for Hb/-O2 Dissociation  
 #'
 #' @description Transforms PO2 values to SpO2 values and vice versa
 #' 
