@@ -2,8 +2,8 @@ Package: fizzTulz
 Type: Package
 Title: Physiology Analysis and Presentation Helper Functions
 Version: 0.0.1
-Authors@R: person("Lindsey", "Boulet", email = "lindseyboulet@gmail.com",
-                  role = c("aut", "cre"))
+Author: Lindsey M Boulet <lindseyboulet@gmail.com>
+Maintainer: Lindsey M Boulet  <lindseyboulet@gmail.com>
 Description: Functions for manuscript preparation 
 License: MIT + file LICENSE
 Encoding: UTF-8
