@@ -12,10 +12,10 @@
 #'
 #' @return Saves a pdf file in current directory
 #'
-#' @importFrom Cairo
-#' @import ggplot2
-#' @import grid
-#' @import gridExtra
+#' @importFrom Cairo CairoPDF
+#' @importFrom ggplot2 ggplotGrob
+#' @importFrom grid unit.pmax
+#' @importFrom gridExtra grid.arrange
 #'
 #' @examples
 #' p1 <- ggplot2::ggplot(mtcars) +ggplot2::geom_point(ggplot2::aes(wt, mpg))

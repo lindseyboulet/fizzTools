@@ -2,11 +2,15 @@ Package: fizzTulz
 Type: Package
 Title: Physiology Analysis and Presentation Helper Functions
 Version: 0.0.1
-Author: lindsey m boulet
-Maintainer: lindsey m boulet <lindseyboulet@gmail.com>
+Authors@R: person("Lindsey", "Boulet", email = "lindseyboulet@gmail.com",
+                  role = c("aut", "cre"))
 Description: Functions for manuscript preparation 
-License: 
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.0
-Imports: ggplot2, grid, Cairo, gridExtra
+Imports: 
+  Cairo,
+  ggplot2,
+  grid,
+  gridExtra
