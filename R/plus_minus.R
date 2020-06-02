@@ -1,15 +1,14 @@
 #' plus_minus {fizzTulz}
 #' 
-#' @title Table of Mean +/- Values
+#' @title Create Table of Mean +/- Values
 #'
-#' @description Creates mean +/- sd table
-#'
-#' @param df1 Dataframe with mean columns or with mean and sd columns
+#' @description Takes a dataframe with mean and sd values and converts them to a table of mean +/- character values
+#'  
+#' @param df1 Dataframe with mean columns or with mean and sd columns 
+#' *note: colnames should be appended with "_mean" or "_sd" accordingly
 #' @param catCols Vector of grouping columns
 #' @param digs Number of significant digits 1 by default
 #' @param df2 Dataframe with sd columns NA by default
-#'
-#' @import dply
 #'
 #' @return Dataframe with mean +/- sd values in character form
 #'

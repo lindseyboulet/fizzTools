@@ -2,12 +2,13 @@
 % Please edit documentation in R/plus_minus.R
 \name{plus_minus}
 \alias{plus_minus}
-\title{Table of Mean +/- Values}
+\title{Create Table of Mean +/- Values}
 \usage{
 plus_minus(df1, catCols, digs = 1, df2 = NA)
 }
 \arguments{
-\item{df1}{Dataframe with mean columns or with mean and sd columns}
+\item{df1}{Dataframe with mean columns or with mean and sd columns 
+*note: colnames should be appended with "_mean" or "_sd" accordingly}
 
 \item{catCols}{Vector of grouping columns}
 
@@ -19,7 +20,7 @@ plus_minus(df1, catCols, digs = 1, df2 = NA)
 Dataframe with mean +/- sd values in character form
 }
 \description{
-Creates mean +/- sd table
+Takes a dataframe with mean and sd values and converts them to a table of mean +/- character values
 }
 \details{
 plus_minus {fizzTulz}
