@@ -1,11 +1,11 @@
 #' sev_trans {fizzTulz}
 #' 
-#' @title Severinghaus Calculation for HbO2 Dissociation  
+#' @title Severinghaus Calculation for Hb-O2 Dissociation  
 #'
 #' @description Transforms PO2 values to SpO2 values and vice versa
 #' 
 #' @param po2 Partial pressure of arterial blood oxygen (mmHg)
-#' @param spo2 Peripheral oxygen saturation (fraction or %)
+#' @param spo2 Peripheral oxygen saturation (fraction or \%)
 #'
 #' @examples
 #' sevTrans(po2 = 55)
