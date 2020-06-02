@@ -1,4 +1,6 @@
-#' @title fizzTools
+#' smartLoad {fizztools}
+#' 
+#' @title Load and Install Packages
 #'
 #' @description Checks for installed packages, installs and loads them
 #'

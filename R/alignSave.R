@@ -1,4 +1,6 @@
-#' @title fizzTools
+#' alignSave {fizztools}
+#' 
+#' @title Align Plots in a Grid and Save to PDF
 #'
 #' @description Aligns grid of plots by axes and saves as pdf
 #'

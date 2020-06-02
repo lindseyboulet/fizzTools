@@ -2,7 +2,7 @@
 % Please edit documentation in R/alignSave.R
 \name{alignSave}
 \alias{alignSave}
-\title{fizzTools}
+\title{Align Plots in a Grid and Save to PDF}
 \usage{
 alignSave(plots.list, ncol, fileName, width = 8.5, height = 11)
 }
@@ -22,6 +22,9 @@ Saves a pdf file in current directory
 }
 \description{
 Aligns grid of plots by axes and saves as pdf
+}
+\details{
+alignSave {fizztools}
 }
 \examples{
 p1 <- ggplot2::ggplot(mtcars) +ggplot2::geom_point(ggplot2::aes(wt, mpg))

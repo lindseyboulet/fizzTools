@@ -2,7 +2,7 @@
 % Please edit documentation in R/smartLoad.R
 \name{smartLoad}
 \alias{smartLoad}
-\title{fizzTools}
+\title{Load and Install Packages}
 \usage{
 smartLoad(pkgs)
 }
@@ -11,6 +11,9 @@ smartLoad(pkgs)
 }
 \description{
 Checks for installed packages, installs and loads them
+}
+\details{
+smartLoad {fizztools}
 }
 \examples{
 physTools::smartLoad("ggplot2")

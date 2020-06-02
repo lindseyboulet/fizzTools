@@ -2,7 +2,7 @@
 % Please edit documentation in R/plusMinus.R
 \name{plusMinus}
 \alias{plusMinus}
-\title{fizzTools}
+\title{Table of Mean +/- Values}
 \usage{
 plusMinus(df1, catCols, digs = 1, df2 = NA)
 }
@@ -20,6 +20,9 @@ Dataframe with mean +/- sd values in character form
 }
 \description{
 Creates mean +/- sd table
+}
+\details{
+plusMinus {fizztools}
 }
 \examples{
 df1 <- mtcars \%>\% group_by(gear, carb) \%>\%

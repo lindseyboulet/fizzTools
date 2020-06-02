@@ -1,4 +1,6 @@
-#' @title fizzTools
+#' plusMinus {fizztools}
+#' 
+#' @title Table of Mean +/- Values
 #'
 #' @description Creates mean +/- sd table
 #'
