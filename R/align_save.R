@@ -1,4 +1,4 @@
-#' alignSave {fizzTulz}
+#' align_save {fizzTulz}
 #' 
 #' @title Align Plots in a Grid and Save to PDF
 #'
@@ -25,7 +25,7 @@
 #' @export
 
 
-alignSave <- function(plots.list, ncol, fileName, width = 8.5, height = 11){
+align_save <- function(plots.list, ncol, fileName, width = 8.5, height = 11){
 
   grobs.list <- lapply(plots.list, ggplot2::ggplotGrob)
 

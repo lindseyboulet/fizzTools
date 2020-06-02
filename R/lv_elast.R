@@ -1,4 +1,4 @@
-#' lvElast {fizzTulz}
+#' lv_elast {fizzTulz}
 #' 
 #' @title Non-Invasive Left Ventricular End-Systolic Elastance
 #'
@@ -16,7 +16,7 @@
 #'
 #' @export
 
-lvElast <- function(rtonset, rtend, ef, dbp, sbp, sv){
+lv_elast <- function(rtonset, rtend, ef, dbp, sbp, sv){
   if(sum(is.na(c(rtonset, rtend, ef, dbp, sbp, sv)))==0){
     tnd <- rtonset/rtend
     if(ef>1){ef<- ef/100}

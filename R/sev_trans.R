@@ -1,4 +1,4 @@
-#' sevTrans {fizzTulz}
+#' sev_trans {fizzTulz}
 #' 
 #' @title Severinghaus Calculation for Hb-O2 Dissociation  
 #'
@@ -17,7 +17,7 @@
 #'
 #' @export
 
-sevTrans <- function(po2 = NA, spo2 = NA){
+sev_trans <- function(po2 = NA, spo2 = NA){
   if(!is.na(po2)){
     ((((((po2^3)+(150*po2))^-1)*23400)+1)^-1)*100
   } else if(!is.na(spo2)){

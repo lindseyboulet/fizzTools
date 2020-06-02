@@ -1,4 +1,4 @@
-#' lvEnergy {fizzTulz}
+#' lv_energy {fizzTulz}
 #' 
 #' @title Non-Invasive Left Ventricular Stroke Energy
 #'
@@ -16,7 +16,7 @@
 #'
 #' @export
 
-lvEnergy <- function(sbp, esv, dbp, edv, ees, eout=1){
+lv_energy <- function(sbp, esv, dbp, edv, ees, eout=1){
   if(sum(is.na(c(sbp, esv, dbp, edv, ees, eout)))==0){
     dat <- matrix(c(edv, dbp, esv, sbp), nrow = 2, ncol = 2, byrow = T)
     y.inter <- sbp-(ees*esv)

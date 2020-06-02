@@ -1,4 +1,4 @@
-#' plusMinus {fizzTulz}
+#' plus_minus {fizzTulz}
 #' 
 #' @title Table of Mean +/- Values
 #'
@@ -21,7 +21,7 @@
 #' @export
 
 
-plusMinus <- function(df1, catCols, digs = 1, df2 = NA){
+plus_minus <- function(df1, catCols, digs = 1, df2 = NA){
   if(is.na(df2)){
     df2 <- df1[,c(which(colnames(df1) %in% catCols),grep("_sem",colnames(df1)))]
     if(nrow(df2 <= length(catCols))){
