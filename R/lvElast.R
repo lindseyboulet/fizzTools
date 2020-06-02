@@ -1,4 +1,4 @@
-#' lvElast {fizztools}
+#' lvElast {fizzTulz}
 #' 
 #' @title Non-Invasive Left Ventricular End-Systolic Elastance
 #'

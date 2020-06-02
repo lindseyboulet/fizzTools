@@ -23,7 +23,7 @@ lvElast(rtonset, rtend, ef, dbp, sbp, sv)
 Calculates End Systolic Elastance from cardiovascular and echocardiographic variables
 }
 \details{
-lvElast {fizztools}
+lvElast {fizzTulz}
 }
 \references{
 Chen, C. H., Fetics, B., Nevo, E., Rochitte, C. E., Chiou, K. R., Ding, P. A., … Kass, D. A. (2001). Noninvasive single-beat determination of left ventricular end-systolic elastance in humans. Journal of the American College of Cardiology, 38(7), 2028–2034. https://doi.org/10.1016/S0735-1097(01)01651-5

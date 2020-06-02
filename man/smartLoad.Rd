@@ -13,7 +13,7 @@ smartLoad(pkgs)
 Checks for installed packages, installs and loads them
 }
 \details{
-smartLoad {fizztools}
+smartLoad {fizzTulz}
 }
 \examples{
 physTools::smartLoad("ggplot2")

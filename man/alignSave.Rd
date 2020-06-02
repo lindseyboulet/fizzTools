@@ -24,7 +24,7 @@ Saves a pdf file in current directory
 Aligns grid of plots by axes and saves as pdf
 }
 \details{
-alignSave {fizztools}
+alignSave {fizzTulz}
 }
 \examples{
 p1 <- ggplot2::ggplot(mtcars) +ggplot2::geom_point(ggplot2::aes(wt, mpg))

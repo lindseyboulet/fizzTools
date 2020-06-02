@@ -1,4 +1,4 @@
-#' smartLoad {fizztools}
+#' smartLoad {fizzTulz}
 #' 
 #' @title Load and Install Packages
 #'

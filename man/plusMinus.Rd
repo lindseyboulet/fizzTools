@@ -22,7 +22,7 @@ Dataframe with mean +/- sd values in character form
 Creates mean +/- sd table
 }
 \details{
-plusMinus {fizztools}
+plusMinus {fizzTulz}
 }
 \examples{
 df1 <- mtcars \%>\% group_by(gear, carb) \%>\%

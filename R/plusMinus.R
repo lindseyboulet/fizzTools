@@ -1,4 +1,4 @@
-#' plusMinus {fizztools}
+#' plusMinus {fizzTulz}
 #' 
 #' @title Table of Mean +/- Values
 #'

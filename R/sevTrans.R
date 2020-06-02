@@ -1,4 +1,4 @@
-#' sevTrans {fizztools}
+#' sevTrans {fizzTulz}
 #' 
 #' @title Severinghaus Calculation for Hb-O2 Dissociation  
 #'

@@ -23,7 +23,7 @@ lvEnergy(sbp, esv, dbp, edv, ees, eout = 1)
 Calculates LV stroke energy (kinetic and potential) from cardiovascular and echocardiographic variables
 }
 \details{
-lvEnergy {fizztools}
+lvEnergy {fizzTulz}
 }
 \references{
 Chen, C. H., Fetics, B., Nevo, E., Rochitte, C. E., Chiou, K. R., Ding, P. A., … Kass, D. A. (2001). Noninvasive single-beat determination of left ventricular end-systolic elastance in humans. Journal of the American College of Cardiology, 38(7), 2028–2034. https://doi.org/10.1016/S0735-1097(01)01651-5

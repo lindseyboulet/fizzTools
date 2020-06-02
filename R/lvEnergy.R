@@ -1,4 +1,4 @@
-#' lvEnergy {fizztools}
+#' lvEnergy {fizzTulz}
 #' 
 #' @title Non-Invasive Left Ventricular Stroke Energy
 #'

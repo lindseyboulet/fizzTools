@@ -15,7 +15,7 @@ sevTrans(po2 = NA, spo2 = NA)
 Transforms PO2 values to SpO2 values and vice versa
 }
 \details{
-sevTrans {fizztools}
+sevTrans {fizzTulz}
 }
 \examples{
 sevTrans(po2 = 55)

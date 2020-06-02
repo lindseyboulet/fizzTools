@@ -1,4 +1,4 @@
-#' alignSave {fizztools}
+#' alignSave {fizzTulz}
 #' 
 #' @title Align Plots in a Grid and Save to PDF
 #'
