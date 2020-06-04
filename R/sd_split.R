@@ -15,7 +15,6 @@
 #' 
 #' @export
 
-
 sd_split <- function(df){
   df <- as.data.frame(df)
   col.var <- colnames(df)[grep("_sd", colnames(df))]
