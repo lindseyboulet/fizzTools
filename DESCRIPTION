@@ -13,4 +13,5 @@ Imports:
   Cairo,
   ggplot2,
   grid,
-  gridExtra
+  gridExtra,
+  plyr
