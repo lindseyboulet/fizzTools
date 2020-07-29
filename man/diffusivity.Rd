@@ -4,14 +4,14 @@
 \alias{diffusivity}
 \title{Calculate the summed diffusivity of an air bubble}
 \usage{
-diffusivity(mol_rad, temp_c = 37, vis = 2.94)
+diffusivity(mol_rad, temp_c = 37, dyn_vis)
 }
 \arguments{
 \item{mol_rad}{molecular radius of bubble (use mol_radius function)}
 
 \item{temp_c}{temperature in degrees celcius 37 by default}
 
-\item{vis}{viscosity of fluid surrounding bubble (cP) 2.94 by default}
+\item{dyn_vis}{dynamic viscosity of fluid surrounding bubble (see fizzTulz::dyn_vis)}
 }
 \description{
 Function to calculate the summed diffusivity of air bubble suspended in fluid 

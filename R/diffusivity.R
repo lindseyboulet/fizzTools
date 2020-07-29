@@ -9,12 +9,12 @@
 #' 
 #' @param mol_rad molecular radius of bubble (use mol_radius function)
 #' @param temp_c temperature in degrees celcius 37 by default
-#' @param vis viscosity of fluid surrounding bubble (cP) 2.94 by default
+#' @param dyn_vis dynamic viscosity of fluid surrounding bubble (see fizzTulz::dyn_vis)
 #' 
 #' @export
 
-diffusivity <- function(mol_rad, temp_c = 37, vis = 2.94){
-  (1.38E-23*(temp_c + 273))/(6*pi*vis)*mol_rad*1E10
+diffusivity <- function(mol_rad, temp_c = 37, dyn_vis){
+  (1.38E-23*(temp_c + 273))/(6*pi*dyn_vis*mol_rad)
 }
 
 
