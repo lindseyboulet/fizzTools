@@ -14,7 +14,7 @@
 #' 
 #' @export
 
-molRad <- function(fiO2 = 0.21,
+mol_radius <- function(fiO2 = 0.21,
                    fiN2 = 0.7896,
                    fiCO2 = 0.0004){
   (fiO2*103E-12) + (fiN2*116E-12) + (fiCO2*113E-12)
