@@ -1,4 +1,4 @@
-#' dyn_vis {fizzTulz}
+#' ep_dyn_vis {fizzTulz}
 #' 
 #' @title Calculate dynamic fluid viscosity of blood
 #'
@@ -10,7 +10,7 @@
 #' 
 #' @export
 
-dyn_vis <- function(hct = 0.467){(1.1*0.6)/(1-hct^(1/3))/1000}
+ep_dyn_vis <- function(hct = 0.467){(1.1*0.6)/(1-hct^(1/3))/1000}
 
 
 

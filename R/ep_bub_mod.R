@@ -1,4 +1,4 @@
-#' bub_mod {fizzTulz}
+#' ep_bub_mod {fizzTulz}
 #' 
 #' @title Two compartment model to calculate time to bubble dissolution
 #'
@@ -14,7 +14,7 @@
 #' 
 #' @export
 
-bub_mod <- function(Ro = 10, Pb = 760, Pf, D, s){
+ep_bub_mod <- function(Ro = 10, Pb = 760, Pf, D, s){
   R <- 0
   P <- (Pb +Pf)/Pb
   (-(R^2-Ro^2)/(2*D*s*(1-0.9)))+((2*(2*0.9+1)*0.5*(R-Ro))/(3*D*s*(1-0.9)^2*P))-(((4*(2*0.9+1)*0.5^2)/(3*D*s*(1-0.9)^3*P^2))*log(((1-0.9)*P*R+2*0.5)/((1-0.9)*P*Ro+2*0.5)))

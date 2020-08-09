@@ -1,4 +1,4 @@
-#' henry_sol {fizzTulz}
+#' ep_henry_sol {fizzTulz}
 #' 
 #' @title Calculate Henry's solubility constant
 #'
@@ -11,6 +11,6 @@
 #' 
 #' @export
 
-henry_sol <- function(temp_c = 37, kh = 1699){0.082*(temp_c+273.15)/kh}
+ep_henry_sol <- function(temp_c = 37, kh = 1699){0.082*(temp_c+273.15)/kh}
 
 
