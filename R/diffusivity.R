@@ -14,7 +14,7 @@
 #' @export
 
 diffusivity <- function(mol_rad, temp_c = 37, dyn_vis){
-  (1.38E-23*(temp_c + 273))/(6*pi*dyn_vis*mol_rad)
+  (1.38E-23*(temp_c + 273))/(6*pi*dyn_vis*mol_rad)*1e12
 }
 
 
