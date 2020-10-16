@@ -25,8 +25,14 @@ silo_select_load <-
     nM2 <- nM2[,-c(drop.ind:(drop.ind+2))]
     for(i in 1:length(x)){
       df <- x[[i]]
-      df$id <- nM2[which(names(x)[i]==nM2[,3]),1]
-      df$cond <- nM2[which(names(x)[i]==nM2[,3]),2]
+      df$id <- nM2[which(names(x)[i]==nM2[,drop.ind]),1]
+      df$cond1 <- nM2[which(names(x)[i]==nM2[,drop.ind]),2]
+      if(drop.ind > 3){
+        df$cond2 <- nM2[which(names(x)[i]==nM2[,drop.ind]),3] 
+      }
+      if(drop.ind > 4){
+        df$cond3 <- nM2[which(names(x)[i]==nM2[,drop.ind]),4] 
+      }
       x[[i]] <- df
     }
     x
