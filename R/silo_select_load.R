@@ -8,7 +8,6 @@
 #'
 #' @examples
 #' silo_select_load('./silo/output/selectData/')
-#' 
 #'
 #' @export
 
