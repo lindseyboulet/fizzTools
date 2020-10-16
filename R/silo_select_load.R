@@ -35,6 +35,6 @@ silo_select_load <-
       }
       x[[i]] <- df
     }
-    x
+    ldply(x)
   }
 
