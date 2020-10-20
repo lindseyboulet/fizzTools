@@ -4,7 +4,7 @@
 \alias{align_save}
 \title{Align Plots in a Grid and Save to PDF}
 \usage{
-align_save(plots.list, ncol, fileName, width = 8.5, height = 11)
+align_save(plots.list, ncol, fileName, width = 8.5, height = 11, dpi = "auto")
 }
 \arguments{
 \item{plots.list}{List of ggplot objects}
@@ -16,6 +16,8 @@ align_save(plots.list, ncol, fileName, width = 8.5, height = 11)
 \item{width}{Width of output pdf (in) 8.5 by default}
 
 \item{height}{Width of output pdf (in) 11 by default}
+
+\item{dpi}{DPI of output pdf "auto" by default}
 }
 \value{
 Saves a pdf file in current directory

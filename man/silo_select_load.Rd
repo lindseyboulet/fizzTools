@@ -18,5 +18,4 @@ silo_select_load {fizzTulz}
 \examples{
 silo_select_load('./silo/output/selectData/')
 
-
 }
