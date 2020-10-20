@@ -9,7 +9,6 @@
 #' @param fileName Output filename and extension (.pdf)
 #' @param width Width of output pdf (in) 8.5 by default
 #' @param height Width of output pdf (in) 11 by default
-#' @param dpi DPI of output pdf "auto" by default
 #'
 #' @return Saves a pdf file in current directory
 #'
@@ -26,7 +25,7 @@
 #' @export
 
 
-align_save <- function(plots.list, ncol, fileName, width = 8.5, height = 11, dpi = "auto"){
+align_save <- function(plots.list, ncol, fileName, width = 8.5, height = 11){
 
   grobs.list <- lapply(plots.list, ggplot2::ggplotGrob)
 
@@ -35,7 +34,7 @@ align_save <- function(plots.list, ncol, fileName, width = 8.5, height = 11, dpi
     x[['widths']] = widths.list
     x})
 
-  Cairo::CairoPDF(file=fileName, width = width, height = height, dpi = dpi)
+  Cairo::CairoPDF(file=fileName, width = width, height = height)
   gridExtra::grid.arrange(grobs = grobs.list, ncol = ncol)
   dev.off()
 }
