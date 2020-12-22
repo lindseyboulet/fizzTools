@@ -15,23 +15,16 @@ con_filt <- function(e1, alpha = 0.05){
   df <- df[complete.cases(df),]
   df <- df[df$p.value<alpha, ]
   df$contrast <- as.character(df$contrast)
-  two <- bind_cols(ldply(strsplit(df$contrast, " - ")), df)
-  df <- bind_cols(ldply(strsplit(two[,1], ",")), 
-                  ldply(strsplit(two[,2], ",")),
-                  df
-  )
-  split.num <- (ncol(df) - 6)/2
-  keepers <- vector()
-  for(i in 1:nrow(df)){
-    good <- sum(
-      array(df[i,1:split.num]) %in%
-        array(df[i,(split.num+1):(split.num*2)])
-    )
-    if(good == split.num-1){
+  two <-ldply(strsplit(df$contrast, " - ")) %>% 
+    apply(2, strsplit, " ")
+  comps <- length(two[[1]][[1]]) -1
+  keepers <- list()
+  for(i in 1:length(two[[1]])){
+    if(sum(unlist(two[[1]][i]) %in% unlist(two[[2]][i])) == comps){
       keepers <- list.append(keepers, i)
     }
   }
-  df[keepers,(split.num*2+1):ncol(df)]
+  df[unlist(keepers),]
 }
 
 
